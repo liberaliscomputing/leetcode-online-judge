@@ -9,7 +9,6 @@ Complexity: O(n^2)
 """
 
 
-
 class Solution(object):
     def isValidSudoku(self, board):
         """
@@ -35,7 +34,7 @@ class Solution(object):
                         return False
                     else:
                         col.append(cell_of_col)
-                #validate square
+                # validate square
                 cell_of_sqr = board[(i / 3 * 3) + (j / 3)][(i % 3 * 3) + (j % 3)]
                 if cell_of_sqr != '.':
                     if cell_of_sqr in sqr:
@@ -45,7 +44,7 @@ class Solution(object):
         return True
 
 if __name__ == '__main__':
-	#board = two_dimensional_array
+	#board = [[two_dimensional_array],[..],..]
 	#solution = Solution()
 	#print solution.isValidSudoku(board)
 
