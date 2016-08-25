@@ -7,9 +7,11 @@
 ##Algorithms
 ###Array
 ####Level: Easy
++ [27. Remove Element](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/remove_element.py)
+
 ###Hash Table
 ####Level: Easy
-+ 36. Valid Sudoku (algorithms/hash_table/easy/valid_sudoku.py)
++ [36. Valid Sudoku](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_sudoku.py)
 
 ##Database
 
