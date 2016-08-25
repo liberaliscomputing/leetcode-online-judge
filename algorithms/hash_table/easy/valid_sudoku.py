@@ -2,10 +2,12 @@
 # -*- coding: utf-8 -*-
 
 """
-Description: Determine if a Sudoku is valid.
+#Description
+Determine if a Sudoku is valid.
 The Sudoku board could be partially filled, where empty cells are filled with the character '.'.
 
-Complexity: O(n^2)
+#Complexity
+Time: O(n^2)
 """
 
 
