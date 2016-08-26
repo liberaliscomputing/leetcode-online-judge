@@ -2,16 +2,17 @@
 + Description: This repo is for sharing my solution code to coding interview questions offered by [LeetCode Online Judge](https://leetcode.com)
 + Coder(s): [Meen Chul Kim](https://github.com/liberaliscomputing)
 + Collaborator(s): [Qing Ping](https://github.com/ChanningPing)
-+ Language: Python 2.7.10
++ Language: Python (>= 2.7.10)
 
 ##Algorithms
 ###Array
 ####Level: Easy
-+ [27. Remove Element](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/remove_element.py)
++ 27. [Remove Element](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/remove_element.py)
++ 88. [Merge Sorted Array](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/merge_sorted_array.py)
 
 ###Hash Table
 ####Level: Easy
-+ [36. Valid Sudoku](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_sudoku.py)
++ 36. [Valid Sudoku](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_sudoku.py)
 
 ##Database
 
