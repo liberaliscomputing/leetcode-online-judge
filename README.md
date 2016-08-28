@@ -8,6 +8,7 @@
 ###Array
 ####Level: Easy
 + 27. [Remove Element](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/remove_element.py)
++ 66. [Plus One](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/plus_one.py)
 + 88. [Merge Sorted Array](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/merge_sorted_array.py)
 
 ###Hash Table
