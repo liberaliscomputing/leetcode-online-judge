@@ -16,6 +16,7 @@
 ###Hash Table
 ####Level: Easy
 + 36. [Valid Sudoku](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_sudoku.py)
++ 389. [Find the Difference](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/find_the_difference.py)
 
 ##Database
 
