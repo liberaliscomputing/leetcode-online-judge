@@ -18,18 +18,19 @@ Space: O(1)
 
 
 class Solution(object):
-    def removeElement(self, nums, val):
-        """
-        :type nums: List[int]
-        :type val: int
-        :rtype: int
-        """
-        pointer = 0
-        for i in range(len(nums)):
-            if nums[i] != val:
-                nums[pointer] = nums[i]
-                pointer += 1
-        return pointer
+	def removeElement(self, nums, val):
+		"""
+		:type nums: List[int]
+		:type val: int
+		:rtype: int
+		"""
+		pointer = 0
+		for i in range(len(nums)):
+			if nums[i] != val:
+				nums[pointer] = nums[i]
+				nums[i] = val
+				pointer += 1
+		return pointer
 
 if __name__ == '__main__':
 	nums = [3, 2, 2, 3]
