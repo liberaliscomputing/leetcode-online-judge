@@ -26,13 +26,23 @@ class Solution(object):
 		:type target: int
 		:rtype: List[int]
 		"""
+
+		num_to_index = {}
+		for i in range(len(nums)):
+			if target - nums[i] in num_to_index:
+				return [num_to_index[target-nums[i]], i]
+			num_to_index[nums[i]] = i
+
+		"""
+		#Cannot handle such a case where nums = [0, 3, 1, 0] and target = 0
 		num_to_index = {num: index for index, num in enumerate(nums)}
 		for index, num in enumerate(nums):
 			if target - num in num_to_index:
 				if index != num_to_index[target - num]:
 					return [index, num_to_index[target - num]] 
 		"""
-		Time: O(n^2)
+		"""
+		#Time: O(n^2)
 		for i in range(len(nums)-1):
 			for j in range(i+1, len(nums)):
 				if nums[i] + nums[j] == target:
