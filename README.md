@@ -14,6 +14,7 @@
 + 088. [Merge Sorted Array](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/merge_sorted_array.py)
 + 169. [Majority Element](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/majority_element.py)
 + 189. [Rotate Array](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/rotate_array.py)
++ 219. [Contains Duplicate II](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/contains_duplicate_ii.py)
 
 ###Hash Table
 ####Level: Easy
