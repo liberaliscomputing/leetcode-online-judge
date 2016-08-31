@@ -14,6 +14,7 @@
 + 088. [Merge Sorted Array](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/merge_sorted_array.py)
 + 169. [Majority Element](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/majority_element.py)
 + 189. [Rotate Array](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/rotate_array.py)
++ 217. [Contains Duplicate](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/contains_duplicate.py)
 + 219. [Contains Duplicate II](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/contains_duplicate_ii.py)
 
 ###Hash Table
@@ -23,7 +24,7 @@
 
 ###Linked List
 ####Level: Easy
-+ 019. [Remove Nth Node From End of List](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/linked_list/easy/remove_nth_node_from_end_of_list.py]
++ 019. [Remove Nth Node From End of List](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/linked_list/easy/remove_nth_node_from_end_of_list.py)
 
 ##Database
 
