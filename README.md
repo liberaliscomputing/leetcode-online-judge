@@ -21,6 +21,10 @@
 + 036. [Valid Sudoku](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_sudoku.py)
 + 389. [Find the Difference](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/find_the_difference.py)
 
+###Linked List
+####Level: Easy
++ 019. [Remove Nth Node From End of List](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/linked_list/easy/remove_nth_node_from_end_of_list.py]
+
 ##Database
 
 ##Shell
