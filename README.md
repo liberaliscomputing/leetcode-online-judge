@@ -25,6 +25,7 @@
 ####Level: Easy
 + 036. [Valid Sudoku](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_sudoku.py)
 + 136. [Single Number](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/single_number.py)
++ 349. [Intersection of Two Arrays](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/eas/intersection_of_two_arrays.py) 
 + 389. [Find the Difference](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/find_the_difference.py)
 
 ###Linked List
