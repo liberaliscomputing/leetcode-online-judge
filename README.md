@@ -33,9 +33,10 @@
 + 019. [Remove Nth Node From End of List](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/linked_list/easy/remove_nth_node_from_end_of_list.py)
 
 ###Math
-####Level: Easy
 
 ##Database
+###Level: Easy
++ 182. [Duplicate Emails](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/duplicate_emails.sql)
 
 ##Shell
 
