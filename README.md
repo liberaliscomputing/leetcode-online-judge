@@ -38,6 +38,7 @@
 
 ##Database
 ###Level: Easy
++ 181. [Employees Earning More Than Their Managers](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/employees_earning_more_than_their_managers.sql)
 + 182. [Duplicate Emails](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/duplicate_emails.sql)
 
 ##Shell
