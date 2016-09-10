@@ -25,6 +25,7 @@
 ####Level: Easy
 + 036. [Valid Sudoku](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_sudoku.py)
 + 136. [Single Number](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/single_number.py)
++ 202. [Happy Number](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/happy_number.py) 
 + 204. [Count Primes](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/count_primes.py) 
 + 205. [Isomorphic Strings](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/isomorphic_strings.py) 
 + 242. [Valid Anagram](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_anagram.py) 
@@ -40,7 +41,8 @@
 ###Math
 
 ##Database
-###Level: Easy
+###SQL
+####Level: Easy
 + 181. [Employees Earning More Than Their Managers](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/employees_earning_more_than_their_managers.sql)
 + 182. [Duplicate Emails](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/duplicate_emails.sql)
 
