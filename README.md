@@ -41,7 +41,9 @@
 + 019. [Remove Nth Node From End of List](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/linked_list/easy/remove_nth_node_from_end_of_list.py)
 + 234. [Palindrome Linked List](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/linked_list/easy/palindrome_linked_list.py)
 
-###Math
+###Binary Search
+####Level: Easy
++ 374. [Guess Number Higher or Lower](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/binary_search/easy/guess_number_higher_or_lower.py)
 
 ##Database
 ###SQL
@@ -49,7 +51,6 @@
 + 175. [Combine Two Tables](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/combine_two_tables.sql)
 + 181. [Employees Earning More Than Their Managers](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/employees_earning_more_than_their_managers.sql)
 + 182. [Duplicate Emails](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/duplicate_emails.sql)
-
 
 ##Shell
 
