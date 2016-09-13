@@ -14,7 +14,7 @@ n = 10, I pick 6.
 Return 6.
 
 #Complexity
-Time: 
+Time: O(logn) 
 """
 
 # The guess API is already defined for you.
