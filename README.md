@@ -32,7 +32,6 @@
 + 290. [Word Pattern](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/word_pattern.py) 
 + 299. [Bulls and Cows](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/bulls_and_cows.py) 
 + 349. [Intersection of Two Arrays](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/intersection_of_two_arrays.py) 
-+ 349. [Intersection of Two Arrays](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/intersection_of_two_arrays.py) 
 + 350. [Intersection of Two Arrays II](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/intersection_of_two_arrays_ii.py) 
 + 389. [Find the Difference](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/find_the_difference.py)
 
@@ -44,6 +43,10 @@
 ###Binary Search
 ####Level: Easy
 + 374. [Guess Number Higher or Lower](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/binary_search/easy/guess_number_higher_or_lower.py)
+
+###Tree
+####Level: Easy
++ 107. [Binary Tree Level Order Traversal II](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/tree/easy/binary_tree_level_order_traversal_ii.py)
 
 ##Database
 ###SQL
