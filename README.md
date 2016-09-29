@@ -20,6 +20,7 @@
 + 217. [Contains Duplicate](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/contains_duplicate.py)
 + 219. [Contains Duplicate II](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/contains_duplicate_ii.py)
 + 283. [Move Zeroes](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/move_zeroes.py)
++ 396. [Rotate Function](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/rotate_function.py)
 
 ###Hash Table
 ####Level: Easy
