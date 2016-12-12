@@ -53,6 +53,7 @@
 ###SQL
 ####Level: Easy
 + 175. [Combine Two Tables](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/combine_two_tables.sql)
++ 176. [Second Highest Salary](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/second_highest_salary.sql)
 + 181. [Employees Earning More Than Their Managers](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/employees_earning_more_than_their_managers.sql)
 + 182. [Duplicate Emails](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/duplicate_emails.sql)
 + 183. [Customers Who Never Order](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/customers_who_never_order.sql)
