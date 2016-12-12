@@ -13,9 +13,17 @@ For example, given the above Employee table, the second highest salary is 200. I
  */
 
 # Write your MySQL query statement below
-SELECT Salary AS SecondHighestSalary 
-FROM Employee 
-UNION
-SELECT NULL
-ORDER BY SecondHighestSalary DESC 
+# Use UNION
+(SELECT Salary AS SecondHighestSalary
+FROM Employee)
+UNION 
+(SELECT NULL)
+ORDER BY SecondHighestSalary DESC
 LIMIT 1, 1;
+
+/*
+# Use inner SELECT
+SELECT MAX(Salary) AS SecondHighestSalary
+FROM Employee
+WHERE Salary < (SELECT MAX(Salary) FROM Employee)
+*/
