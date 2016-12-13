@@ -1,12 +1,12 @@
-#LeetCode Online Judge
+# LeetCode Online Judge
 + Description: This repo is for sharing my solution code to coding interview questions offered by [LeetCode Online Judge](https://leetcode.com)
 + Coder(s): [Meen Chul Kim](https://github.com/liberaliscomputing)
 + Collaborator(s): [Qing Ping](https://github.com/ChanningPing)
-+ Language: Python (>= 2.7.10)
++ Language: Python==2.7.10
 
-##Algorithms
-###Array
-####Level: Easy
+## Algorithms
+### Array
+#### Level: Easy
 + 001. [Two Sum](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/two_sum.py)
 + 026. [Remove Duplicates from Sorted Array](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/remove_duplicates_from_sorted_array.py)
 + 027. [Remove Element](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/remove_element.py)
@@ -22,8 +22,8 @@
 + 283. [Move Zeroes](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/move_zeroes.py)
 + 396. [Rotate Function](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/array/easy/rotate_function.py)
 
-###Hash Table
-####Level: Easy
+### Hash Table
+#### Level: Easy
 + 036. [Valid Sudoku](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/valid_sudoku.py)
 + 136. [Single Number](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/single_number.py)
 + 202. [Happy Number](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/happy_number.py) 
@@ -36,22 +36,22 @@
 + 350. [Intersection of Two Arrays II](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/intersection_of_two_arrays_ii.py) 
 + 389. [Find the Difference](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/hash_table/easy/find_the_difference.py)
 
-###Linked List
-####Level: Easy
+### Linked List
+#### Level: Easy
 + 019. [Remove Nth Node From End of List](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/linked_list/easy/remove_nth_node_from_end_of_list.py)
 + 234. [Palindrome Linked List](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/linked_list/easy/palindrome_linked_list.py)
 
-###Binary Search
-####Level: Easy
+### Binary Search
+#### Level: Easy
 + 374. [Guess Number Higher or Lower](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/binary_search/easy/guess_number_higher_or_lower.py)
 
-###Tree
-####Level: Easy
+### Tree
+#### Level: Easy
 + 107. [Binary Tree Level Order Traversal II](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/algorithms/tree/easy/binary_tree_level_order_traversal_ii.py)
 
-##Database
-###SQL
-####Level: Easy
+## Database
+### SQL
+#### Level: Easy
 + 175. [Combine Two Tables](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/combine_two_tables.sql)
 + 176. [Second Highest Salary](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/second_highest_salary.sql)
 + 181. [Employees Earning More Than Their Managers](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/employees_earning_more_than_their_managers.sql)
@@ -59,5 +59,7 @@
 + 183. [Customers Who Never Order](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/customers_who_never_order.sql)
 + 196. [Delete Duplicate Emails](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/delte_duplicate_emails.sql)
 + 197. [Rising Temperature](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/rising_temperature.sql)
+#### Level: Medium
++ 178. [Rank Scores](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/medium/rank_scores.sql)  
 
-##Shell
+## Shell
