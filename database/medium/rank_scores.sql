@@ -34,4 +34,4 @@ SELECT b.Score, 1 + (
     WHERE a.Score > b.Score
 ) AS Rank
 FROM Scores b
-ORDER BY Score DESC
+ORDER BY Score DESC;
