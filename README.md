@@ -61,6 +61,7 @@
 + 197. [Rising Temperature](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/rising_temperature.sql)  
 
 #### Level: Medium
++ 177. [Nth Highest Salary](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/medium/nth_highest_salary.sql)  
 + 178. [Rank Scores](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/medium/rank_scores.sql)  
 + 180. [Consecutive Numbers](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/medium/consecutive_numbers.sql)  
 + 184. [Department Highest Salary](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/medium/department_highest_salary.sql)  
