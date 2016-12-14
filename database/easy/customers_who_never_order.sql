@@ -33,7 +33,7 @@ Using the above tables as example, return the following:
  */
 
 # Write your MySQL query statement below
-SELECT Customers.Name AS Customers
+SELECT Name AS Customers
 FROM Customers
 LEFT JOIN Orders
 ON Customers.Id = Orders.CustomerId

@@ -21,16 +21,16 @@ Given the Employee table, write a SQL query that finds out employees who earn mo
  */
 
 # Write your MySQL query statement below
-SELECT E1.Name AS Employee
-FROM Employee AS E1, Employee AS E2
-WHERE (E1.ManagerId = E2.Id) AND (E1.Salary > E2.Salary);
-
 /*
-#With JOIN
-SELECT E1.Name AS Employee
-FROM Employee AS E1
-JOIN Employee AS E2
-ON E1.ManagerId = E2.Id
-WHERE E1.Salary > E2.Salary;
+SELECT e1.Name AS Employee
+FROM Employee e1, Employee e2
+WHERE e1.ManagerId = e2.Id
+    AND e1.Salary > e2.Salary;
 */
 
+# With JOIN
+SELECT e1.Name AS Employee
+FROM Employee e1
+INNER JOIN Employee e2
+ON e1.ManagerId = e2.Id
+    AND e1.Salary > e2.Salary;
