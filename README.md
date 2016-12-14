@@ -59,8 +59,10 @@
 + 183. [Customers Who Never Order](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/customers_who_never_order.sql)
 + 196. [Delete Duplicate Emails](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/delte_duplicate_emails.sql)
 + 197. [Rising Temperature](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/easy/rising_temperature.sql)  
+
 #### Level: Medium
 + 178. [Rank Scores](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/medium/rank_scores.sql)  
 + 180. [Consecutive Numbers](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/medium/consecutive_numbers.sql)  
++ 184. [Department Highest Salary](https://github.com/liberaliscomputing/leetcode-online-judge/blob/master/database/medium/department_highest_salary.sql)  
 
 ## Shell
