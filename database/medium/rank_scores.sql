@@ -28,10 +28,10 @@ For example, given the above Scores table, your query should generate the follow
  */
 
 # Write your MySQL query statement below
-SELECT b.Score, 1 + (
-    SELECT COUNT(DISTINCT a.Score) 
-    FROM Scores a 
-    WHERE a.Score > b.Score
-) AS Rank
-FROM Scores b
-ORDER BY Score DESC;
+SELECT Score, (
+    SELECT COUNT(DISTINCT Score)
+    FROM Scores AS S2
+    WHERE S1.Score < S2.Score
+    ) + 1 AS 'Rank'
+FROM Scores AS S1
+ORDER BY `Rank` ASC;

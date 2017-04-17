@@ -30,12 +30,13 @@ Write a SQL query to find employees who have the highest salary in each of the d
  */
 
 # Write your MySQL query statement below
-SELECT d.Name AS Department, e.Name AS Employee, e.Salary AS Salary
-FROM Employee e, Department d, (
-    Select DepartmentId, Max(Salary) AS Salary 
-    FROM Employee 
-    GROUP BY DepartmentId
-) AS m
-WHERE e.DepartmentId = m.DepartmentId
-    AND e.Salary = m.Salary
-    AND e.DepartmentId = d.Id;
+SELECT D.Name AS Department, E.Name AS Employee, Salary
+FROM Employee AS E
+INNER JOIN (
+    SELECT Department.Id, Department.Name, MAX(Salary) AS MaxSalary
+    FROM Employee
+    INNER JOIN Department
+    ON DepartmentId = Department.Id
+    GROUP BY DepartmentId, Name) AS D
+ON DepartmentId = D.Id 
+WHERE Salary = MaxSalary;

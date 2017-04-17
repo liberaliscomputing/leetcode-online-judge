@@ -13,13 +13,13 @@ For example, given the above Employee table, the nth highest salary where n = 2 
  */
 
 # Write your MySQL query statement below.
-CREATE FUNCTION getNthHighestSalary(N INT) RETURNS INT
+CREATE FUNCTION getNthHighestSalary(N INTEGER) RETURNS INTEGER
 BEGIN
-    SET N = N-1;
+    SET N = N - 1;
     RETURN (
         SELECT DISTINCT Salary
         FROM Employee
         ORDER BY Salary DESC
-        LIMIT N, 1
+        LIMIT 1 OFFSET N
     );
 END

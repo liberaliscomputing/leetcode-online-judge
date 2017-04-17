@@ -30,6 +30,6 @@ FirstName, LastName, City, State
 
 # Write your MySQL query statement below
 SELECT FirstName, LastName, City, State
-FROM Person
-LEFT JOIN Address
-ON Person.PersonId = Address.PersonId;
+FROM Person AS P
+LEFT JOIN Address AS A
+ON P.PersonId = A.PersonId;

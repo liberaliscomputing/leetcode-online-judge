@@ -22,17 +22,25 @@ For example, return the following Ids for the above Weather table:
  */
 
 # Write your MySQL query statement below
-# Use JOIN
-SELECT w1.Id
-FROM Weather w1
-INNER JOIN Weather w2
-ON w1.Date = w2.Date + INTERVAL 1 DAY
-WHERE w1.Temperature > w2.Temperature;
+SELECT W2.Id
+FROM Weather AS W1
+INNER JOIN Weather AS W2
+ON W1.`Date` + INTERVAL 1 DAY = W2.`Date` 
+WHERE W1.Temperature < W2.Temperature;
 
-/*
-# Use WHERE
-SELECT w2.Id AS Id
-FROM Weather w1, Weather w2
-WHERE w1.Date + INTERVAL 1 DAY = w2.Date
-    AND w1.Temperature < w2.Temperature;
-*/
+/**
+# Use inner join without where
+SELECT W2.Id
+FROM Weather AS W1
+INNER JOIN Weather AS W2
+ON W1.`Date` + INTERVAL 1 DAY = W2.`Date` 
+    AND W1.Temperature < W2.Temperature;
+ */
+
+/**
+# Don't use inner join
+SELECT W2.Id
+FROM Weather AS W1, Weather AS W2
+WHERE W1.`Date` + INTERVAL 1 DAY = W2.`Date` 
+    AND W1.Temperature < W2.Temperature;
+ */

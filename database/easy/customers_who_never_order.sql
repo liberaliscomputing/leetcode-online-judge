@@ -34,7 +34,7 @@ Using the above tables as example, return the following:
 
 # Write your MySQL query statement below
 SELECT Name AS Customers
-FROM Customers
-LEFT JOIN Orders
-ON Customers.Id = Orders.CustomerId
-WHERE Orders.CustomerId IS NULL;
+FROM Customers AS C
+LEFT JOIN Orders AS O
+ON C.Id = CustomerId
+WHERE CustomerId IS NULL;

@@ -21,23 +21,36 @@ For example, after running your query, the above Person table should have the fo
  */
 
 # Write your MySQL query statement below
-# Write your MySQL query statement below
-# Use DELETE
-
-DELETE p1
-FROM Person p1, Person p2
-WHERE p1.Email = p2.Email AND p1.Id > p2. Id
-
-/*
-# Use SELECT
-DELETE 
-FROM Person 
+DELETE FROM Person
 WHERE Id NOT IN (
-    SELECT p.Id 
+    SELECT Id
     FROM (
-        SELECT MIN(Id) AS Id 
-        FROM Person 
-        GROUP BY Email
-    ) AS p
-)
-*/
+        SELECT MIN(Id) AS Id
+        FROM Person
+        GROUP BY Email) AS P2);
+
+/**
+# Use inner join
+DELETE P1
+FROM Person AS P1
+INNER JOIN Person AS P2
+ON P1.Email = P2.Email
+WHERE P1.Id > P2.Id;
+ */
+
+/**
+# Use inner join without where
+DELETE P1
+FROM Person AS P1
+INNER JOIN Person AS P2
+ON P1.Email = P2.Email
+	AND P1.Id > P2.Id;
+ */
+
+/**
+# Don't use inner join
+DELETE P1
+FROM Person AS P1, Person AS P2
+WHERE P1.Email = P2.Email
+    AND P1.Id > P2.Id;
+ */
